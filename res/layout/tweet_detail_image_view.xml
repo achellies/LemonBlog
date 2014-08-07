@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/mask_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:background="@color/translucent_dark"
+    android:visibility="gone" >
+
+    <Button
+        android:id="@id/detail_image_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="30dip"
+        android:text="@string/exit"
+        android:background="@drawable/btn_green"
+        android:padding="10dip"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@id/detail_image_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="30dip"
+        android:text="@string/save"
+        android:background="@drawable/btn_green"
+        android:padding="10dip"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@id/tweet_upload_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="center" />
+
+    <ProgressBar
+        android:id="@id/loading_progress"
+        style="@style/progressStyleMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wb_wlog_blow_bg_daytime" >
+
+    <RelativeLayout
+        android:id="@id/main_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/title_bar_bg"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@id/back"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/mm_title_btn_back"
+            android:text="@string/back"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/square_blowing"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@id/done"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/mm_title_btn_right"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/btn_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/main_titlebar"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/wb_wlog_blow_sound_nor" />
+
+    <ImageView
+        android:id="@id/blow_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/dandelion"
+        android:layout_marginLeft="15.0dip"
+        android:layout_above="@id/dandelion"
+        android:src="@drawable/wb_blow_guide" />
+
+    <ImageView
+        android:id="@id/dandelion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wb_wlog_blow_parent_dandelion" />
+
+    <com.limemobile.app.blog.widget.DandelionView
+        android:id="@id/dandelion_effect"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_default" >
+
+    <RelativeLayout
+        android:id="@id/main_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar_bg" >
+
+        <RelativeLayout
+            android:id="@+id/panel1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/title_new"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@id/sub_tab_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <com.viewpagerindicator.TabView
+                    android:id="@id/message_at_me"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/sub_tab_item_selector"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/message_at_me"
+                    android:textColor="@color/tab_text_color"
+                    android:textSize="@dimen/title_text_size" />
+
+                <com.viewpagerindicator.TabView
+                    android:id="@id/message_comment"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/sub_tab_item_selector"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/message_comment"
+                    android:textColor="@color/tab_text_color"
+                    android:textSize="@dimen/title_text_size" />
+
+                <com.viewpagerindicator.TabView
+                    android:id="@id/message_private_letter"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/sub_tab_item_selector"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/message_private_letter"
+                    android:textColor="@color/tab_text_color"
+                    android:textSize="@dimen/title_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@id/sub_tab_selectedIndicator"
+            android:layout_width="22dip"
+            android:layout_height="13dip"
+            android:layout_alignBottom="@id/panel1"
+            android:background="@drawable/dark_orange_triangle_up" />
+    </RelativeLayout>
+
+    <com.viewpagerindicator.SubViewPager
+        android:id="@id/sub_tab_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/main_titlebar" />
+
+</RelativeLayout>

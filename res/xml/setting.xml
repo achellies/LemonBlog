@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="@string/setting_title_generic_setting" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autoload_more"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_autoload_more_desc"
+            android:title="@string/setting_autoload_more"
+            android:widgetLayout="@layout/preference_checkbox" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="screenorientation"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_screenorientation_desc"
+            android:title="@string/setting_screenorientation"
+            android:widgetLayout="@layout/preference_checkbox" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="fast_scroll_bar"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_fast_scroll_bar_desc"
+            android:title="@string/setting_fast_scroll_bar"
+            android:widgetLayout="@layout/preference_checkbox" />
+
+        <Preference
+            android:key="clear_cache"
+            android:layout="@layout/preference"
+            android:persistent="false"
+            android:summary="@string/preferences_clear_cache_summary"
+            android:title="@string/preferences_clear_cache_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="@string/setting_title_picture_setting" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="auto_opt"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_summary_auto_opt"
+            android:title="@string/setting_title_auto_opt"
+            android:widgetLayout="@layout/preference_checkbox" />
+
+        <ListPreference
+            android:defaultValue="TwoMP"
+            android:dependency="auto_opt"
+            android:entries="@array/entries_image_size"
+            android:entryValues="@array/values_upload_image_size"
+            android:key="upload_image_size"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_summary_upload"
+            android:title="@string/setting_title_upload" />
+        <ListPreference
+            android:defaultValue="wap690"
+            android:dependency="auto_opt"
+            android:entries="@array/entries_download_image_size"
+            android:entryValues="@array/values_download_image_size"
+            android:key="download_image_size"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_summary_doownload"
+            android:title="@string/setting_title_doownload" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preference_category"
+        android:title="@string/setting_title_auto_remind_setting" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_remind"
+            android:layout="@layout/preference"
+            android:summaryOff="@string/setting_summary_off_auto_remind"
+            android:summaryOn="@string/setting_summary_on_auto_remind"
+            android:title="@string/setting_title_auto_remind"
+            android:widgetLayout="@layout/preference_checkbox" />
+
+        <Preference
+            android:dependency="auto_remind"
+            android:key="remind_category"
+            android:layout="@layout/preference"
+            android:persistent="false"
+            android:summary="@string/pref_setting_notify_summary"
+            android:title="@string/pref_setting_notify" />
+
+        <ListPreference
+            android:defaultValue="120000"
+            android:dependency="auto_remind"
+            android:dialogTitle="@string/setting_interval"
+            android:entries="@array/entries_interval"
+            android:entryValues="@array/values_interval"
+            android:key="interval"
+            android:layout="@layout/preference"
+            android:summary="@string/setting_interval_desc"
+            android:title="@string/setting_interval" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="auto_remind"
+            android:key="audio"
+            android:layout="@layout/preference"
+            android:summaryOff="@string/setting_summary_off_audio"
+            android:summaryOn="@string/setting_summary_on_audio"
+            android:title="@string/setting_title_audio"
+            android:widgetLayout="@layout/preference_checkbox" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="auto_remind"
+            android:key="vibrator"
+            android:layout="@layout/preference"
+            android:summaryOff="@string/setting_summary_off_vibrator"
+            android:summaryOn="@string/setting_summary_on_vibrator"
+            android:title="@string/setting_vibrator"
+            android:widgetLayout="@layout/preference_checkbox" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,114 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar" />
+    
+    <style name="search_radiobutton_weibo">
+        <item name="android:textColor">#ff7f7f7f</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@drawable/search_radio_weibo</item>
+        <item name="android:paddingLeft">@dimen/searchbar_radiobutton_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="search_radiobutton_user">
+        <item name="android:textColor">#ff7f7f7f</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@drawable/search_radio_user</item>
+        <item name="android:paddingLeft">@dimen/searchbar_radiobutton_padding_user</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="progressStyleMain">
+        <item name="android:maxWidth">32.0dip</item>
+        <item name="android:maxHeight">32.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_loading</item>
+        <item name="android:minWidth">32.0dip</item>
+        <item name="android:minHeight">32.0dip</item>
+    </style>
+    
+   <style name="PopupTextGeneric">
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:editable">false</item>
+    </style>
+
+    <style name="PopupTitleGeneric" parent="@style/PopupTextGeneric">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/quickaction_popup_with_arrow_background_black</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="PopupSectionTitle" parent="@style/PopupTextGeneric">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@null</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+    </style>
+
+    <style name="PopupTitle" parent="@style/PopupTitleGeneric">
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    
+	<style name="Animations" />
+
+	<!-- PopDownMenu -->
+	<style name="Animations.PopDownMenu" />
+	
+	<style name="Animations.PopDownMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+	
+	<style name="Animations.PopDownMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+	</style>
+	
+	<style name="Animations.PopDownMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+	</style>
+	
+	<style name="Animations.PopDownMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_top</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+	
+	<!-- PopUpMenu -->
+	<style name="Animations.PopUpMenu" />
+	
+	<style name="Animations.PopUpMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+	
+	<style name="Animations.PopUpMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+	</style>
+	
+	<style name="Animations.PopUpMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+	</style>
+	
+	<style name="Animations.PopUpMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+</resources>

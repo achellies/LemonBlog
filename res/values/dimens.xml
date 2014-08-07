@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- height of a normal list item in normal mode -->
+    <dimen name="drag_normal_height">66dip</dimen>
+    <!-- height of an expanded list item in drag mode -->
+    <dimen name="drag_expanded_height">132dip</dimen>
+    
+    
+    <dimen name="tab_button_text_size">14.0dip</dimen>
+    <dimen name="user_info_level_text_size">10.0dip</dimen>
+    <dimen name="title_text_size">20.0dip</dimen>
+    <dimen name="user_info_text_size">16.0dip</dimen>
+    
+    <dimen name="list_item_title_text_size">16.0dip</dimen>
+    <dimen name="list_item_sub_title_text_size">12.0dip</dimen>
+    
+    <dimen name="widget_height">100.0dip</dimen>
+    <dimen name="widget_content_margin_top">20.0dip</dimen>
+    <dimen name="widget_content_margin_left">10.0dip</dimen>
+    <dimen name="widget_logo_size">35.0dip</dimen>
+    
+    <dimen name="searchbar_padding">5.0px</dimen>
+    <dimen name="searchbar_textsize">24.0px</dimen>
+    <dimen name="searchbar_paddingleft">45.0px</dimen>
+    <dimen name="searchbar_paddingright">126.0px</dimen>
+    <dimen name="searchbar_marginright">62.0px</dimen>
+    <dimen name="searchbar_radiobutton_padding">40.0dip</dimen>
+    <dimen name="searchbar_radiobutton_padding_user">55.0dip</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/drag_normal_height"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/list_item_selector"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_marginLeft="20dip"
+            android:id="@id/item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_green" />
+
+        <TextView
+            android:id="@id/item_title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:padding="10dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_item_title_text_size" />
+
+        <TextView
+            android:id="@id/item_action"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_red"
+            android:clickable="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/list_item_sub_title_text_size" />
+
+        <ImageButton
+            android:id="@id/item_subimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_move_bg" />
+    </LinearLayout>
+
+</LinearLayout>

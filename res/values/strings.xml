@@ -1,0 +1,284 @@
+<resources>
+
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="load_more">正在载入更多</string>
+    <string name="app_update_new_version">There is a new version (%1$s) of %2$s available!</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="pref_check_updates_title">Check for updates</string>
+    <string name="pref_min_interval_title">Minimum update frequency</string>
+    <string name="pref_min_interval_summary">Checks for updates at most this many minutes</string>
+    <string name="app_name">柠檬微博</string>
+    <string name="tips">提示</string>
+    <string name="version_new">有新版本(%s)，马上升级？</string>
+    <string name="version_info">升级改动：</string>
+    <string name="version_update">升级</string>
+    <string name="version_cancel">取消</string>
+    <string name="application_check_updata">检查更新</string>
+    <string name="request_software_update">正在检查新版本，请稍候。</string>
+    <string name="last_version">您当前使用的已经是最新版本</string>
+    <string name="sure_to_exit">确认退出微博</string>
+    
+    <string name="friendly_time_day_before">天前</string>
+    <string name="friendly_time_the_day_before_yesterday">前天</string>
+    <string name="friendly_time_yesterday">昨天</string>
+    <string name="friendly_time_hour_before">小时前</string>
+    <string name="friendly_time_minute_before">分钟前</string>
+    <string name="friendly_time_second_before">秒前</string>
+    
+    <string name="friendly_long_extend_million">%d万</string>
+    <string name="friendly_time_extend_billion">%d亿</string>
+    
+    <string name="save">保存</string>    
+    <string name="forward">转发</string>
+    <string name="comment">评论</string>
+    <string name="sendmsg">发私信</string>
+    <string name="reply">回复</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="go_next">继续</string>
+    <string name="exit">退出</string>
+    <string name="delete">删除</string>
+    <string name="ok">确定</string>
+    <string name="more">更多</string>
+    <string name="send">发送</string>
+    <string name="back">返回</string>
+    
+    <string name="title_other_user_info">资料</string>
+    <string name="title_mblog_content">微博正文</string>
+    <string name="title_new_mblog">发表新微博</string>
+    <string name="title_button_send">发送</string>
+    
+    <string name="progress_loading_text">加载中</string>
+    
+    <string name="attention">关注</string>
+    <string name="attend_to_him">关注他</string>
+    <string name="attend_to_her">关注她</string>
+    <string name="user_delattention">取消关注</string>
+    <string name="at_him">\@他</string>
+    <string name="at_her">\@她</string>
+    <string name="refresh">刷新</string>
+    <string name="blacklist">黑名单</string>
+    <string name="add_to_blacklist">加入黑名单</string>
+    
+    <string name="weibo_detail">微博正文</string>
+    <string name="my_fans_label">我的听众</string>
+    <string name="he_fans_label">他的听众</string>
+    <string name="she_fans_label">她的听众</string>
+    <string name="my_tweet_label">我的广播</string>
+    <string name="he_tweet_label">他的广播</string>
+    <string name="she_tweet_label">她的广播</string>
+    <string name="my_topic_label">我的话题</string>
+    <string name="inbox_label">我的私信</string>
+    <string name="my_favorites_label">我的收藏</string>
+    <string name="he_favorites_label">他的收藏</string>
+    <string name="she_favorites_label">她的收藏</string>
+    <string name="my_follower_label">我收听的人</string>
+    <string name="he_follower_label">他收听的人</string>
+    <string name="she_follower_label">她收听的人</string>
+    <string name="communicating_failed">网络连接失败</string>
+    <string name="list_no_item">没有数据</string>
+    <string name="nothing_left">这个家伙很懒呦~</string>
+    <string name="choose_email_client">请选择电子邮件客户端</string>
+    <string name="msg_nonetwork">网络连接不可用,请到系统设置中打开网络连接!</string>
+    
+    <!-- 账号管理 -->
+    <string name="add_account_label">添加新账号</string>
+    <string name="account_add_done">完成</string>
+    <string name="account_edit">编辑</string>
+    
+    <!-- search相关 -->
+    <string name="search_weibo">搜索微博</string>
+    <string name="search_user">找人</string>
+    
+    <!-- 设置界面相关 -->
+    <string name="pref_setting_notify">提醒设置</string>
+    <string name="pref_setting_notify_summary">可定制项包括:微博、私信、@我、评论</string>
+    <string name="pref_setting_weibo">微博提醒</string>
+    <string name="pref_setting_at">\@我提醒</string>
+    <string name="pref_setting_comment">评论提醒</string>
+    <string name="pref_setting_message">私信提醒</string>
+    <string name="pref_setting_fans">新粉丝提醒</string>
+    <string name="setting_need_clear_cache">您需要清除缓存吗？</string>
+    <string name="setting_doing">处理中</string>
+    <string name="setting_success_clear">删除成功</string>
+    
+    <!-- 首页Tab相关的 -->
+    <string name="tab_home">首页</string>
+    <string name="tab_message">信息</string>
+    <string name="tab_selfinfo">我的资料</string>
+    <string name="tab_square">广场</string>
+    <string name="tab_more">更多</string>
+    
+    <!-- 我的资料界面相关的  -->
+    <string name="user_info_nick">昵称：</string>
+    <string name="user_info_address">地址：</string>
+    <string name="user_info_sex">性别：</string>
+    <string name="user_info_sex_male">男</string>
+    <string name="user_info_sex_female">女</string>
+    <string name="user_info_constellation">星座：</string>
+    <string name="user_info_description">介绍：</string>
+    <string name="user_info_follow">收听</string>
+    <string name="user_info_tweet">广播</string>
+    <string name="user_info_fans">听众</string>
+    <string name="user_info_favorite">收藏</string>
+    <string name="user_info_mutual">互听关系</string>
+    <string name="user_info_blacklist">黑名单</string>
+    <string name="user_info_edit">编辑个人资料</string>
+    <string name="user_info_upload_head">上传头像</string>
+    <string name="user_info_birthday">生日：</string>
+    <string name="user_info_vip">认证：</string>
+    <string name="user_info_topic">话题</string>
+    <string name="user_info_level">等级：</string>
+    
+    <!-- 更多相关 -->
+    <string name="more_setting">设置</string>
+    <string name="more_account">账户管理</string>
+    <string name="more_readmode">浏览模式</string>
+    <string name="more_office_tweet">官方微博</string>
+    <string name="more_theme">主题管理</string>
+    <string name="more_update">检测新版本</string>
+    <string name="more_about">关于</string>
+    
+    <!-- 关于相关 -->
+    <string name="about_version">版本</string>
+    <string name="about_author">作者</string>
+    <string name="about_email">eMail</string>
+    <string name="about_qq">QQ</string>
+    
+    <!-- image crop相关 -->
+    <string name="choose_image">选择图片</string>
+    <string name="choose_image_camera">相机拍摄</string>
+    <string name="choose_image_gallery">手机相册</string>
+    
+    <!-- 信息界面相关的 -->
+    <string name="message_at_me">\@我</string>
+    <string name="message_comment">评论</string>
+    <string name="message_private_letter">私信</string>
+    <string name="message_write_message">写私信</string>
+    
+    <!-- 广场相关 -->
+    <string name="square_hot_tweet">热门微博</string>
+    <string name="square_hot_huati">热门话题</string>
+    <string name="square_around_people">周围的人</string>
+    <string name="square_around_tweet">周边的微博</string>
+    <string name="square_vip">名人堂</string>
+    <string name="square_casual_look_at">随便看看</string>
+    <string name="square_guess_you_like">猜你喜欢</string>
+    <string name="square_weather">天气通</string>
+    <string name="square_sina_weibo">新浪微博</string>
+    <string name="square_sohu_weibo">搜狐微博</string>
+    <string name="square_163_weibo">网易微博</string>
+    <string name="square_tencent_weibo">腾讯微博</string>
+    <string name="square_limemobile_news">柠檬新闻</string>
+    <string name="square_limemobile_books">柠檬读书</string>
+    <string name="square_shake">摇一摇</string>
+    <string name="square_blowing">吹一吹</string>
+    
+    <!-- 提示语 -->
+    <string name="new_post_succeed">发布微博成功。</string>
+    <string name="new_post_fail">发布微博失败。</string>
+    <string name="new_comment_succeed">发布评论成功。</string>
+    <string name="new_comment_fail">发布评论失败。</string>
+    <string name="new_msg_succeed">发布私信成功。</string>
+    <string name="new_msg_fail">发布私信失败。</string>
+    <string name="add_favorite_succeed">收藏微博成功。</string>
+    <string name="add_favorite_fail">收藏微博失败。</string>
+    <string name="del_favorite_succeed">取消收藏微博成功。</string>
+    <string name="del_favorite_fail">取消收藏微博失败。</string>
+    <string name="fail_to_delete_weibo">删除微博失败！</string>
+    <string name="succeed_to_delete_weibo">成功删除微博</string>
+   	<string name="new_forward_success">转发微博成功</string>
+    <string name="new_forward_failed">转发微博失败</string>
+    <string name="modify_userinfo_success">修改个人资料成功</string>
+    <string name="modify_userinfo_fail">修改个人资料失败</string>
+   	<string name="attend_topic_ok">关注话题成功</string>
+    <string name="attend_topic_failed">关注话题失败</string>
+    <string name="remove_topic_ok">取消关注成功</string>
+    <string name="remove_topic_failed">取消关注失败</string>
+    <string name="del_attention_failed">取消关注失败</string>
+    <string name="del_attention_ok">取消关注成功</string>
+    <string name="add_attention_ok">添加关注成功</string>
+    <string name="add_attention_failed">添加关注失败</string>
+   	<string name="load_userinfo_success">获取用户数据成功</string>
+    <string name="load_userinfo_failed">获取用户数据失败</string>
+    <string name="add_person_to_blacklist_or_not">是否将此人加入黑名单？</string>
+    <string name="delete_from_blacklist">解除黑名单</string>
+    <string name="delete_person_from_blacklist_or_not">是否将此人从黑名单中删除？</string>
+    <string name="ok_to_add_to_blacklist">加入黑名单成功</string>
+    <string name="fail_to_add_to_blacklist">加入黑名单失败</string>
+    <string name="ok_to_delete_from_blacklist">解除黑名单成功</string>
+    <string name="fail_to_delete_from_blacklist">解除黑名单失败</string>
+    
+    <!-- 主题相关 -->
+    <string name="theme_skin_download_failed">%s主题包下载失败</string>
+    <string name="theme_skin_download_success">%s主题包下载成功</string>
+    <string name="theme_skin_download_cancelled">%s主题包下载取消</string>
+    <string name="theme_skin_download_update">升级</string>
+    <string name="theme_skin_download_cancel">取消下载</string>
+    <string name="theme_skin_download_download_continue">继续下载</string>
+    <string name="theme_skin_download_download">下载</string>
+    <string name="theme_skin_download_use">使用</string>
+    <string name="theme_skin_download_using">使用中</string>
+    <string name="change_skin_success">主题切换成功</string>
+    
+    <!-- 微博相关 -->
+    <string name="from">来自:%s</string>
+    
+    <!-- 浏览模式 -->
+    <string name="readmode_image">预览图模式</string>
+    <string name="readmode_only_text">文字模式</string>
+    <string name="readmode_text_size_label">设置字号：</string>
+    
+    <!-- 设置相关 -->
+    <string name="setting_title_auto_remind">自动提醒</string>
+    <string name="setting_summary_off_auto_remind">关闭自动提醒</string>
+    <string name="setting_summary_on_auto_remind">启用自动提醒</string>
+    <string name="setting_title_auto_remind_setting">自动提醒设置</string>
+    <string name="setting_summary_off_vibrator">关闭震动提醒</string>
+    <string name="setting_summary_on_vibrator">启用震动提醒</string>
+    <string name="setting_summary_off_audio">关闭铃声提醒</string>
+    <string name="setting_summary_on_audio">启用铃声提醒</string>
+    <string name="setting_title_audio">铃声提醒</string>
+    <string name="setting_title_generic_setting">通用设置</string>
+    <string name="setting_autoload_more">自动加载“更多”</string>
+    <string name="setting_autoload_more_desc">到达列表底部时自动加载“更多”微博</string>
+    <string name="setting_screenorientation">横竖屏自动切换</string>
+    <string name="setting_screenorientation_desc">当手机横过来时，是否自动切换横竖屏显示方式</string>
+    <string name="setting_fast_scroll_bar">开启快速拖动</string>
+    <string name="setting_fast_scroll_bar_desc">浏览列表时可使用拖动条快速拖动</string>
+    <string name="preferences_clear_cache_title">清除缓存</string>
+    <string name="preferences_clear_cache_summary">清除缓存:包括用户信息、微博信息、图片等。</string>
+    <string name="setting_title_picture_setting">图片质量设置</string>
+    <string name="setting_title_auto_opt">开启自动优化</string>
+    <string name="setting_summary_auto_opt">wifi网络环境下自动优化图片的上传下载清晰度</string>
+    <string name="setting_title_upload">上传图片设置</string>
+    <string name="setting_summary_upload">调整上传图片的质量</string>
+    <string name="setting_title_doownload">下载图片设置</string>
+    <string name="setting_summary_doownload">调整下载图片的质量</string>
+    <string name="image_size_large">高</string>
+    <string name="image_size_middle">中</string>
+    <string name="image_size_low">低</string>
+    <string name="entries_interval_1">0.5分钟</string>
+    <string name="entries_interval_3">2分钟</string>
+    <string name="entries_interval_4">5分钟</string>
+    <string name="entries_download_image_large">高</string>
+    <string name="entries_download_image_small">低</string>
+    <string name="setting_vibrator">震动提醒</string>
+    <string name="setting_vibrator_desc">检测到新消息时，震动提醒</string>
+    <string name="setting_interval">检测间隔</string>
+    <string name="setting_interval_desc">自动检测新微博的间隔时间，间隔长省流量</string>
+    
+    <!-- 微薄正文 -->
+    <string name="toolbar_refresh">刷新</string>
+    <string name="toolbar_comment">评论</string>
+    <string name="toolbar_forward">转发</string>
+    <string name="toolbar_add_fav">收藏</string>
+    <string name="toolbar_del_fav">取消收藏</string>
+    <string name="toolbar_more">更多</string>
+     
+    <!-- 地理位置 -->
+    <string name="position_info">经度:%1$+.6f, 纬度:%2$+.6f</string>
+</resources>

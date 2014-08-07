@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic__uri" type="id"/>
+    <item name="ic__load_id" type="id"/>
+    
+    <item name="main_container" type="id"/>
+    <item name="main_titlebar" type="id"/>
+    <item name="main_toolbar" type="id" />
+    <item name="main_searchbar" type="id" />  
+    <item name="main_listview" type="id"/>
+    <item name="main_list_foot" type="id"/>
+    <item name="main_gridview" type="id" />
+    <item name="new_tag" type="id"/>
+    <item name="item_title" type="id"/>
+    <item name="item_checkbox" type="id"/>
+    <item name="item_image" type="id"/>
+    <item name="item_subimage" type="id"/>
+    <item name="item_subtitle" type="id"/>
+    <item name="item_move" type="id"/>
+    <item name="item_delete" type="id"/>
+    <item name="item_add" type="id"/>
+    <item name="item_time" type="id"/>
+    <item name="item_date" type="id"/>
+    <item name="item_gps" type="id"/>
+    <item name="item_pic" type="id"/>
+    <item name="item_content" type="id"/>
+    <item name="item_next_tag" type="id"/>
+    <item name="item_action" type="id"/>
+    <item name="subLayout" type="id" />
+    <item name="tweet_upload_pic1" type="id" />
+    <item name="tweet_upload_pic2" type="id" />
+    <item name="tweet_upload_pic" type="id" />
+    <item name="sub_item_content" type="id"/>
+    <item name="tweet_form" type="id" />
+    <item name="tweet_redirect" type="id" />
+    <item name="tweet_redirect_rt" type="id" />
+    <item name="tweet_comment" type="id" />
+    <item name="tweet_comment_rt" type="id" />
+    <item name="menu_home" type="id" />
+    <item name="menu_setting" type="id"/>
+    <item name="menu_exit" type="id"/>
+    <item name="menu_refresh" type="id"/>
+    <item name="menu_about" type="id"/>
+    <item name="menu_open" type="id"/>
+    <item name="menu_search" type="id"/>
+    <item name="menu_delete" type="id" />
+    <item name="app_version" type="id"/>
+    <item name="mask_container" type="id"/>
+    <item name="sub_container" type="id"/>
+    <item name="app_widget_time" type="id"/>
+    <item name="app_widget_img" type="id"/>
+    <item name="app_widget_currnetindex" type="id"/>
+    
+    <item name="viewpager" type="id"/>
+    <item name="viewpager_indicator" type="id" />
+    
+    <item name="widget_block_content" type="id" />
+    <item name="widget_logo" type="id" />
+    <item name="widget_content_text" type="id" />
+    
+    <item name="quickaction_scroller" type="id" />
+    <item name="quickaction_tracks" type="id" />
+    <item name="quickaction_arrow_up" type="id" />
+    <item name="quickaction_arrow_down" type="id" />
+    <item name="quickaction_popup_header" type="id" />
+    <item name="quickaction_dialog_close" type="id" />
+    <item name="quickaction_popup_title" type="id" />
+    <item name="quickaction_content_panel" type="id" />
+    <item name="quickaction_popup_footer" type="id" />
+    <item name="action_item_iv_icon" type="id" />
+    <item name="action_item_tv_title" type="id" />
+    
+    <!-- 微博详细图片 -->
+    <item name="detail_image_back" type="id" />
+    <item name="detail_image_save" type="id" />
+    
+    <!-- search相关 -->
+    <item name="search_button" type="id" />
+    <item name="search_voice_button" type="id" />
+    <item name="search_edittext" type="id" />
+    <item name="search_button_clear" type="id" />
+    <item name="search_radiobutton_user" type="id" />
+    <item name="search_radiobutton_weibo" type="id" />
+    <item name="search_radiobutton_group" type="id" />
+    
+    <!-- 首页Tab相关的 -->
+    <item name="tab_bar" type="id" />
+    <item name="tab_home" type="id"/>
+    <item name="tab_message" type="id"/>
+    <item name="tab_selfinfo" type="id"/>
+    <item name="tab_square" type="id"/>
+    <item name="tab_more" type="id"/>
+    <item name="tab_selectedIndicator" type="id" />
+    <item name="tab_viewpager" type="id" />
+    
+    <item name="home" type="id" />
+    <item name="title" type="id" />
+    <item name="new_tweet" type="id" />
+    <item name="refresh" type="id" />
+    <item name="back" type="id" />
+    <item name="exit" type="id" />
+    <item name="camera" type="id" />
+    <item name="cancel" type="id" />
+    <item name="save" type="id" />
+    <item name="send" type="id" />
+    <item name="edit_input" type="id" />
+    <item name="edit" type="id" />
+    <item name="done" type="id" />
+    <item name="listview" type="id" />
+    <item name="progress_loading_text" type="id" />
+    <item name="loading_progress" type="id" />
+    
+    <!-- 吹一吹 -->
+    <item name="dandelion" type="id" />
+    <item name="btn_audio" type="id" />
+    <item name="blow_guide" type="id" />
+    <item name="dandelion_effect" type="id" />
+    
+    
+    <!-- 我的资料界面相关的  -->
+    <item name="user_info_level" type="id" />
+    <item name="user_info_verifyinfo" type="id" />
+    <item name="user_info_nick_container" type="id" />
+    <item name="user_info_nick" type="id" />
+    <item name="user_info_name" type="id" />
+    <item name="user_info_address_container" type="id" />
+    <item name="user_info_address" type="id" />
+    <item name="user_info_sex_container" type="id" />
+    <item name="user_info_sex" type="id" />
+    <item name="user_info_sex_male" type="id" />
+    <item name="user_info_sex_female" type="id" />
+    <item name="user_info_constellation" type="id" />
+    <item name="user_info_description_container" type="id" />
+    <item name="user_info_description" type="id" />
+    <item name="user_info_follow_container" type="id" />
+    <item name="user_info_follow" type="id" />
+    <item name="user_info_tweet_container" type="id" />
+    <item name="user_info_tweet" type="id" />
+    <item name="user_info_fans_container" type="id" />
+    <item name="user_info_fans" type="id" />
+    <item name="user_info_favorite_container" type="id" />
+    <item name="user_info_favorite" type="id" />
+    <item name="user_info_topic_container" type="id" />
+    <item name="user_info_topic" type="id" />
+    <item name="user_info_mutual_container" type="id" />
+    <item name="user_info_mutual" type="id" />
+    <item name="user_info_blacklist_container" type="id" />
+    <item name="user_info_blacklist" type="id" />
+    <item name="user_info_head_container" type="id" />
+    <item name="user_info_head" type="id"/>
+    <item name="user_info_vip_container" type="id"/>
+    <item name="user_info_vip" type="id"/>
+    <item name="user_info_birthday_container" type="id"/>
+    <item name="user_info_birthday" type="id"/>
+    
+    <!-- 更多相关 -->
+    <item name="more_setting" type="id" />
+    <item name="more_account" type="id" />
+    <item name="more_readmode" type="id" />
+    <item name="more_office_tweet" type="id" />
+    <item name="more_theme" type="id" />
+    <item name="more_update" type="id" />
+    <item name="more_about" type="id" />
+    
+    <!-- 关于相关 -->
+    <item name="about_version_container" type="id" />
+    <item name="about_version" type="id" />
+    <item name="about_author_container" type="id" />
+    <item name="about_author" type="id" />
+    <item name="about_email_container" type="id" />
+    <item name="about_email" type="id" />
+    <item name="about_qq_container" type="id" />
+    <item name="about_qq" type="id" />
+    
+    <!-- image crop相关 -->
+    <item name="choose_image" type="id" />
+    <item name="choose_image_camera_container" type="id" />
+    <item name="choose_image_camera" type="id" />
+    <item name="choose_image_gallery_container" type="id" />
+    <item name="choose_image_gallery" type="id" />
+    
+    <!-- 信息界面相关的  -->
+    <item name="message_at_me" type="id"/>
+    <item name="message_comment" type="id"/>
+    <item name="message_private_letter" type="id"/>
+    <item name="sub_tab_viewpager" type="id" />
+    <item name="sub_toolbar" type="id" />
+    <item name="sub_tab_bar" type="id" />
+    <item name="sub_tab_selectedIndicator" type="id" />
+    
+    <!-- 其他用户个人信息界面相关  -->
+    <item name="toolbar_refresh" type="id" />
+    <item name="toolbar_at" type="id" />
+    <item name="toolbar_privateletter" type="id" />
+    <item name="toolbar_blacklist" type="id" />
+    
+    <!-- 微博正文 -->
+    <item name="toolbar_comment" type="id" />
+    <item name="toolbar_forward" type="id" />
+    <item name="toolbar_fav" type="id" />
+    <item name="toolbar_more" type="id" />
+    
+    <!-- 广场相关 -->
+    <item name="square_hot_tweet" type="id" />
+    <item name="square_hot_huati" type="id" />
+    <item name="square_around_people" type="id" />
+    <item name="square_around_tweet" type="id" />
+    <item name="square_vip" type="id" />
+    <item name="square_casual_look_at" type="id" />
+    <item name="square_guess_you_like" type="id" />
+    <item name="square_weather" type="id" />
+    <item name="square_sina_weibo" type="id" />
+    <item name="square_sohu_weibo" type="id" />
+    <item name="square_163_weibo" type="id" />
+    <item name="square_tencent_weibo" type="id" />
+    <item name="square_limemobile_news" type="id" />
+    <item name="square_limemobile_books" type="id" />
+    <item name="square_shake" type="id" />
+    <item name="square_blowing" type="id" />
+    
+    <!-- 浏览模式 -->
+    <item name="readmode_image" type="id" />
+    <item name="readmode_image_radio" type="id" />
+    <item name="readmode_only_text" type="id" />
+    <item name="readmode_only_text_radio" type="id" />
+    <item name="readmode_text_size_label" type="id" />
+    <item name="readmode_text_size" type="id" />
+
+</resources>

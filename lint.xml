@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src\android\support\v4\view\ViewCompatJB.java" />
+        <ignore path="src\com\limemobile\app\lbs\LocateTask.java" />
+    </issue>
+</lint>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_default"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@id/main_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar_bg"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/title_back" />
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/more_readmode"
+            android:textColor="@color/tab_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+        <ImageView
+            android:id="@id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/title_reload"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/readmode_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/circle_list_top"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <ImageView
+            android:id="@id/readmode_image_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/btn_check_off" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1.0"
+            android:text="@string/readmode_image"
+            android:textColor="@color/user_info_text_color"
+            android:textSize="@dimen/user_info_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/readmode_only_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/circle_list_bottom"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <ImageView
+            android:id="@id/readmode_only_text_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/btn_check_off" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1.0"
+            android:text="@string/readmode_only_text"
+            android:textColor="@color/user_info_text_color"
+            android:textSize="@dimen/user_info_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/readmode_text_size_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:text="@string/readmode_text_size_label"
+        android:textColor="@color/user_info_text_color"
+        android:textSize="@dimen/user_info_text_size" />
+
+    <SeekBar
+        android:id="@id/readmode_text_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip" />
+
+</LinearLayout>

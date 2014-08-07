@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="entries_image_size">
+        <item>@string/image_size_large</item>
+        <item>@string/image_size_middle</item>
+        <item>@string/image_size_low</item>
+    </array>
+
+    <string-array name="values_upload_image_size">
+        <item>ThreeMP</item>
+        <item>TwoMP</item>
+        <item>OneMP</item>
+    </string-array>
+
+    <array name="entries_download_image_size">
+        <item>@string/entries_download_image_large</item>
+        <item>@string/entries_download_image_small</item>
+    </array>
+
+    <string-array name="values_download_image_size">
+        <item>woriginal</item>
+        <item>wap690</item>
+    </string-array>
+    <string-array name="values_picture_size">
+        <item>128</item>
+        <item>176</item>
+        <item>240</item>
+        <item>320</item>
+        <item>960</item>
+    </string-array>
+
+    <array name="entries_interval">
+        <item>@string/entries_interval_1</item>
+        <item>@string/entries_interval_3</item>
+        <item>@string/entries_interval_4</item>
+    </array>
+
+    <string-array name="values_interval">
+        <item>30000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
+
+</resources>
